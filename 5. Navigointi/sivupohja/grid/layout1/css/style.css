@@ -1,0 +1,30 @@
+header {
+    background-color: yellowgreen;
+    height: 100px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 2fr 0.6fr 0.6fr;
+    height: 400px;
+}
+
+#main article {
+    order: 1;
+    background-color: whitesmoke;
+}
+
+#main aside {
+    order: 2;
+    background-color: beige;
+}
+
+#main nav {
+    order: 3;
+    background-color: #D7E8D4;
+}
+
+footer {
+    height: 100px;
+    background-color: yellowgreen;
+}

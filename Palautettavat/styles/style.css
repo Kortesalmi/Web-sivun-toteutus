@@ -1,0 +1,226 @@
+#content {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 150px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 150px auto auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(240, 140, 0);
+    grid-column: 1/5;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+header img {
+    height: 80px;
+    margin: 10px;
+}
+
+nav {
+    grid-row: 2/4;
+    grid-column: 1/5;
+    background-color: rgb(240, 140, 0);
+    border: 1px solid black;
+    width: 150px;
+    min-height: 150px;
+    border-radius: 5px;
+}
+
+nav h3 {
+    margin-left: 4px;
+    margin-bottom: 3px;
+}
+
+nav li a {
+    font-size: 20px;
+    width: 100%;
+}
+
+nav li:hover {
+    margin-left: -6px;
+    width: 100%;
+    border: 1px solid rgb(185, 75, 10);
+    border-radius: 5px;
+    background-color: rgb(235, 210, 120);
+}
+
+div.links {
+    grid-column: 2/5;
+    display: flex;
+    flex: wrap;
+    gap: 10px;
+    grid-row: 2/4;
+    font-size: 30px;
+    height: 150px;
+}
+
+.links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 100%;
+}
+
+.brave, .fair, .intelligent, .responsible {
+    border: 10px solid rgb(240, 140, 0);
+    border-radius: 5px;
+}
+
+article {
+    grid-row: 3/4;
+    grid-column: 2/5;
+    background-color: rgb(235, 210, 120);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer {
+    grid-row: 4/4;
+    grid-column: 1/5;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 140, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h4 {
+    margin: 0;
+}
+
+footer li {
+    margin-top: 3px;
+}
+
+#logo {
+    justify-content: space-between;
+    height: 80px; 
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.brave {
+    
+    background-image: url("../images/cat.jpg");
+    background-size: cover;
+    
+}
+
+.intelligent {
+    
+    background-image: url("../images/light.jpg");
+    background-size: cover;
+}
+
+.fair {
+     
+    background-image: url("../images/judge.jpg");
+    background-size: cover;
+}
+
+.responsible {
+    
+    background-image: url("../images/eco.jpg");
+    background-size: cover;
+}
+
+.brave:hover {
+    border: 10px solid rgb(240, 140, 0);
+    
+}
+
+.intelligent:hover {
+    border: 10px solid rgb(225, 0, 105);
+}
+
+.fair:hover {
+    border: 10px solid rgb(0, 175, 215);
+}
+
+.responsible:hover {
+    border: 10px solid rgb(45, 170, 55);
+}
+
+@media screen and (max-width: 768px) {
+    .brave, .intelligent, .fair, .responsible {
+        border: solid 2px black;
+        background-image: none;
+        background-color: rgb(235, 210, 120);
+    }
+
+    .links a {
+        color: black;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .brave:hover {
+        background-color: rgb(240, 140, 0);
+        border: solid 2px rgb(240, 140, 0)
+    }
+
+    .intelligent:hover {
+        background-color: rgb(240, 140, 0);
+        border: solid 2px rgb(225, 0, 105);
+    }
+
+    .fair:hover {
+        background-color: rgb(240, 140, 0);
+        border: solid 2px rgb(0, 175, 215)
+    }
+
+    .responsible:hover {
+        background-color: rgb(240, 140, 0);
+        border: solid 2px rgb(45, 170, 55)
+    }
+
+    div.links {
+        display: grid;
+        grid-template-rows: 30px 30px 30px 30px
+        
+    }
+
+    footer img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    div.links {
+        grid-column: 1/5;
+    }
+
+    article {
+        grid-column: 1/5;
+    }
+    
+    nav {
+        grid-column: 1/5;
+        width: 20px;
+        position: relative;
+        height: 157px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav:hover, nav:hover ul {
+        width: 150px;
+        display: block;
+    }
+}

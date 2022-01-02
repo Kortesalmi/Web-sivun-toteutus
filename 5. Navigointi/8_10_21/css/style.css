@@ -1,0 +1,26 @@
+label {
+    display: block;
+}
+
+a {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.eka {
+    width: 400px;
+    padding: 40px;
+    border: 2px;
+    margin-bottom: 30px;
+    background-color: antiquewhite;
+    float: left;
+}
+
+.toka {
+    box-sizing: border-box;
+    width: 400px;
+    padding: 40px;
+    border: 2px;
+    background-color: blueviolet;
+    float: right;
+}

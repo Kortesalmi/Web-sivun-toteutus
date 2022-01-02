@@ -1,0 +1,36 @@
+.content {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 150px auto 150px;
+}
+
+header {
+    background-color: aqua;
+    grid-column: 1/4;
+    height: 20vh;
+}
+
+nav {
+    background-color: bisque;
+}
+
+article {
+    background-color: cadetblue;
+    height: 70vh;
+}
+
+aside {
+    background-color: darkblue;
+    height: 70vh;
+}
+
+footer {
+    color: #fff;
+    background-color: black;
+    grid-column: 2/4;
+    height: 20vh;
+}
+
+img {
+    width: 100px;
+}

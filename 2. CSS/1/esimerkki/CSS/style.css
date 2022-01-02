@@ -1,0 +1,21 @@
+div {
+    margin: 50px;
+}
+
+h1 {
+    color:red;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    color: blueviolet;
+}
+
+#kolmas {
+    background-color: yellow;
+}
+
+.kappale {
+    background-color: teal;
+}

@@ -1,0 +1,26 @@
+#maincontent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #333;
+    padding: 20px;
+}
+
+#maincontent div {
+    width: 150px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #333;
+}
+
+#maincontent img {
+    max-width: 100%;
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}

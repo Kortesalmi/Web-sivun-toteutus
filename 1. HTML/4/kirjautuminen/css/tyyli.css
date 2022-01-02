@@ -1,0 +1,12 @@
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+#muista-minut label{
+    width: 300px;
+}

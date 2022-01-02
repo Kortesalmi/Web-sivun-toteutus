@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+div, article {
+    width: 150px;
+    height: 100px;
+    background-color: chocolate;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+div:first-child {
+    position: sticky;
+    width: 320px;
+    height: 50px;
+    top: 0px;
+}
+
+div:nth-child(2) {
+    position: relative;
+    left: 20px;
+}
+
+div:nth-child(3) {
+    position: fixed;
+    left: 170px;
+}
+
+article {
+    position: absolute;
+    left: -150px;
+    top: 100px;
+}

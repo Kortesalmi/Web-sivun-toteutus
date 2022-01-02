@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tilauslomake</title>
+</head>
+<body>
+    <h3>Order from my webpage</h3>
+    <form>
+
+            <label for="firstname">First name</label><br>
+            <input type="text" name="firstname" id="firstname" required><br><br>
+
+            <label for="lastname">Last name</label><br>
+            <input type="text" name="lastname" id="lastname" required><br><br>
+
+            <label for="address">Address</label><br>
+            <input type="text" name="address" id="address" required><br><br>
+
+            <label for="zip">Zip</label><br>
+            <input type="number" name="zip" id="zip" required><br><br>
+
+            <label for="city">City</label><br>
+            <input type="text" name="city" id="city" required><br><br>
+
+            <label for="payment">Payment</label><br>
+            <select name="list" id="list">
+                <option value="1">Mastercard</option>
+                <option value="2">Visa</option>
+                <option value="3">PayPal</option>
+                <option value="4">S-Pankki</option>
+                <option value="5">MobilePay</option>
+            </select><br><br>
+            <input type="checkbox" name ='option' value="1">
+            <label>I want to receive newsletter</label> <br><br>
+            <input type='submit' value="Order">
+    </form>
+</body>
+</html>

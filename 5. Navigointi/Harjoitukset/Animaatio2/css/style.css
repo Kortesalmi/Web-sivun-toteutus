@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+img:hover {
+    animation-name: shadow;
+    animation-duration: 2s;
+}
+
+main div {
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+}
+
+@keyframes shadow {
+    from {box-shadow: none;}
+    to {box-shadow: 10px 5px 5px #333}
+}

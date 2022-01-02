@@ -1,0 +1,18 @@
+h1{
+    background-color: burlywood;
+    text-align: center;
+    text-decoration: none;
+}
+
+p{
+    background-color: coral;
+    color: white;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+span{
+    background-color: aquamarine;
+}
